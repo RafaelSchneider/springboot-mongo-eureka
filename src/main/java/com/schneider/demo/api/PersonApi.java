@@ -41,4 +41,9 @@ public class PersonApi {
         personService.deleteAll();
     }
 
+    @GetMapping("/test")
+    public String getPersonMock(){
+        return "ok";
+    }
+
 }
